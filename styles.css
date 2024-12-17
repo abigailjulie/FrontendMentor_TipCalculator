@@ -28,6 +28,7 @@
 body {
   background-color: var(--Light-grayish-cyan);
   font-family: var(--font-family);
+  height: 100vh;
 }
 
 .container {
