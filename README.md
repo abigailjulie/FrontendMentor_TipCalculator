@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+[Splitter Screenshot](./images/SpliterScreenshot.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abigailjulie/FrontendMentor_TipCalculator)
-- Live Site URL: [Add live site URL here](https://frontendmentortipcalculator.vercel.app/)
+- Solution URL: [Github](https://github.com/abigailjulie/FrontendMentor_TipCalculator)
+- Live Site URL: [Live Site](https://frontendmentortipcalculator.vercel.app/)
 
 ## My process
 
@@ -65,4 +65,4 @@ I had trouble with turning the custom button into in the input field for the cus
 ## Author
 
 - Website - [Abigail Figaro](https://www.abigaildesigns.org)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/abigailjulie)
+- Frontend Mentor - [@abigailjulie](https://www.frontendmentor.io/profile/abigailjulie)
