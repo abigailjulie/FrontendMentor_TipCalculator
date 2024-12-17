@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script defer src="./scripts.js"></script>
+  </head>
+
+  <body class="d-flex flex-column justify-content-center align-items-center">
+    <h1 class="title">SPLI<br />TTER</h1>
+    <div class="container">
+      <div class="wrapper">
+        <section class="bill">
+          <div class="errorWrapper">
+            <h2 class="billName sectionName">Bill</h2>
+            <h2 class="errorText" id="errorText">Can't be zero</h2>
+          </div>
+          <div class="inputWrapper">
+            <input
+              type="text"
+              class="billInput"
+              id="billInput"
+              aria-label="Bill amount, enter numeric value"
+            />
+            <i class="bi bi-currency-dollar"></i>
+          </div>
+        </section>
+
+        <section class="tip">
+          <h2 class="tipName sectionName">Select Tip %</h2>
+          <div class="tipBtns">
+            <button type="button">5%</button>
+            <button type="button">10%</button>
+            <button type="button">15%</button>
+            <button type="button">25%</button>
+            <button type="button">50%</button>
+            <button type="button" class="customBtn" id="customBtn">
+              Custom
+            </button>
+          </div>
+
+          <!-- Custom Tip Input -->
+          <div class="customTipInputWrapper">
+            <input
+              type="number"
+              class="customTipInput"
+              id="customTipInput"
+              placeholder="Custom Tip %"
+              min="0"
+            />
+          </div>
+        </section>
+
+        <section class="people">
+          <div class="errorWrapper">
+            <h2 class="numPeople sectionName">Number of People</h2>
+            <h2 class="errorText" id="errorText">Can't be zero</h2>
+          </div>
+          <div class="inputWrapper">
+            <input
+              type="number"
+              class="peopleInput"
+              id="peopleInput"
+              aria-label="Number of people, enter numeric value"
+              min="1"
+            />
+            <i class="bi bi-person-fill"></i>
+          </div>
+        </section>
+      </div>
+
+      <section class="total">
+        <div class="totalWrapper">
+          <div class="label">
+            <h2 class="amount sectionName">Tip Amount</h2>
+            <h3 class="person">/ person</h3>
+          </div>
+          <p class="tipTotal" id="tipTotal"></p>
+        </div>
+        <div class="final">
+          <div class="totalWrapper">
+            <div class="label">
+              <h2 class="amount sectionName">Total</h2>
+              <h3 class="person">/ person</h3>
+            </div>
+            <p class="finalTotal" id="finalTotal"></p>
+          </div>
+        </div>
+        <button class="reset" id="reset" type="button">RESET</button>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
