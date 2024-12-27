@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Splitter Screenshot](./images/SpliterScreenshot.JPG)
+![](./images/SpliterScreenshot.JPG)
 
 ### Links
 
